@@ -1,0 +1,230 @@
+@font-face{
+    src: url(Prime-Light.ttf);
+    font-family: Prime-Light;
+}
+
+body{
+    margin: 0px;
+    background-image: url(sasuke.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.links{
+    float: right;
+    display: block;
+    padding: 0px 10px;
+    overflow: hidden;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #967bb6;
+}
+
+a:hover{
+    color: gainsboro;
+    opacity: .6;
+    transition-duration: .3s;
+}
+
+hr{
+    height: 1px;
+    border-top:1px solid #967bb6;
+    border-bottom: #967bb6;
+}
+
+.msg{
+    color: #967bb6;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    font-family: Prime-light;
+    font-size: 2vw;
+    letter-spacing: 5px;
+} 
+
+.rinnegan{
+    position: relative;
+    top: 290px;
+    left: 150px;
+}
+
+.outer-circle{
+    height: 305px;
+    width: 305px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+.inner-circle{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    height: 295px;
+    width: 295px;
+    border-radius: 100%;
+    background-color:#967bb6;
+}
+
+.smaller-circle{
+    height: 230px;
+    width: 230px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    top: 32px;
+    left: 32px;
+}
+
+ .inner-circle2{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    background-color:#967bb6;
+}
+
+.inner-circle3{
+    position: relative;
+    left: 45px;
+    top: 45px;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    background-color: black;
+} 
+
+.inner-circle4{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: #967bb6;
+} 
+
+.inner-circle5{
+    position: relative;
+    left: 35px;
+    top: 35px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: black;
+} 
+
+ .eye{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    left: 43px;
+    top: -15px;
+    animation-name: fadein;
+    animation-iteration-count: 1;
+}
+
+
+.halfmoon{
+    border-radius: 100% 0px;
+    transform: rotate(110deg);
+    height: 24px;
+    width: 30px;
+    background-color: black;
+    position: relative;
+    top: 0px;
+    left: -7px;
+    animation-name: fadein;
+    animation-iteration-count: 1;
+} 
+
+
+
+.halfmoon2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    top: 93px;
+    left: 8px;  
+} 
+
+.eye2{
+    border-radius: 100% 0px;
+    transform: rotate(110deg);
+    height: 24px;
+    width: 30px;
+    background-color: black;
+    position: absolute;
+    top: 105px;
+    left: 8px;
+    transform: rotate(2deg);
+} 
+
+.eye3{
+    border-radius: 100% 0px;
+    transform: rotate(110deg);
+    height: 24px;
+    width: 30px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 92px;
+    transform: rotate(140deg);
+} 
+
+.halfmoon3{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    top: 92px;
+    left: 85px;  
+} 
+
+.fadein{
+    animation: fadein 3s;
+
+}
+
+@keyframes fadein{
+        from {opacity: 0;}
+        to { opacity: 1; }
+}
+
+@media (max-width: 900px){
+    body{
+        background-size: auto;
+        
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .outer-circle{
+        
+}
+}
